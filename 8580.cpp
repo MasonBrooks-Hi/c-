@@ -1,17 +1,13 @@
 #include <iostream>
+#include <cmath> // 使用 pow 函数需要引入这个头文件
 using namespace std;
 
 int main() {
     long long x, y;
     cin >> x >> y;
     
-    // 用 long long 存储结果，初始值为 1
-    long long result = 1; 
-    
-    // 循环 y 次，每次都乘以 x
-    for (int i = 0; i < y; i++) {
-        result *= x;
-    }
+    // pow(x, y) 计算 x 的 y 次方，强制转换为 long long 防止溢出
+    long long result = pow(x, y);
     
     cout << result << endl;
     return 0;
