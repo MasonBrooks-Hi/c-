@@ -1,14 +1,17 @@
 #include <iostream>
-#include <cmath> // 使用 pow 函数需要引入这个头文件
 using namespace std;
 
 int main() {
     long long x, y;
     cin >> x >> y;
     
-    // pow(x, y) 计算 x 的 y 次方，强制转换为 long long 防止溢出
-    long long result = pow(x, y);
+    // 把名字改成 xxx，完全可以
+    long long xxx = 1; 
     
-    cout << result << endl;
+    for (int i = 0; i < y; i++) {
+        xxx *= x; // 每次把结果乘到 xxx 盒子里
+    }
+    
+    cout << xxx << endl; // 最后打印 xxx 盒子里装的数字
     return 0;
 }
