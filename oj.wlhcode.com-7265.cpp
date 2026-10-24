@@ -7,6 +7,6 @@ int main(){
   cin>>a;
   int b=a;
   double j=a-b;
-  printf("%.3lf\n", fabs(j);
+  printf("%.3lf\n", fabs(j));
   return 0;
 }
