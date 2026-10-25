@@ -1,6 +1,6 @@
 # 贡献您的代码
 - 本站简介和内容均用简体中文设计, 如果你希望贡献您的代码可以通过Mason Brooks的邮箱提交
-- 有任何问题比如遗漏或者想提交问题等都(建议)发不到[Issues](https://github.com/MasonBrooks-Hi/oj.wlhcode.com/issues)
+- 有任何问题比如遗漏或者想提交问题等都(建议)发布到[Issues](https://github.com/MasonBrooks-Hi/oj.wlhcode.com/issues)
 - 您可以自由的fork或者star或者watch
 
 ## 成为开发者之一
